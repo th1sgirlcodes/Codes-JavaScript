@@ -1,0 +1,25 @@
+// declaração e expressão de função
+
+function soma(a, b) {
+    return a + b;
+}
+
+let valor = soma(2, 4);
+console.log(valor);
+
+let total = soma(3, 4) + 10;
+console.log(total);
+
+// declaração da função e armazenar dentro da variavel, maneira facil de criar legibilidade no código e reutilizar o que está construindo
+
+//chamando a função
+let total = function (a,b) {  // esse formato da flexibilidade de alterar valores da variável
+    return a + b;
+}
+
+console.log(total(3, 4)); //ao executar essa função vamos chamar a variavel que está armazenando ela
+console.log(total(13, 4));
+console.log(total(31, 14));
+console.log(total(3, 24));
+
+//consegue utilizar a variavel como função em diversos tipos colocando os dados diferentes
